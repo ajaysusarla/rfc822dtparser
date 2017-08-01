@@ -1,5 +1,5 @@
 [package]
-name = "rfc822-dtparser"
+name = "rfc822dtparser"
 version = "0.1.0"
 authors = ["Partha Susarla <mail@spartha.org>"]
 
