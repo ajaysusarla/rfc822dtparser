@@ -1,0 +1,7 @@
+[package]
+name = "examples"
+version = "0.1.0"
+authors = ["Partha Susarla <mail@spartha.org>"]
+
+[dependencies]
+rfc822dtparser = { path = "../rfc822dtparser" }
