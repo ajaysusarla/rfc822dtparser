@@ -6,6 +6,8 @@ use parser::InputStr;
 
 mod parser;
 
+pub mod dtparser;
+
 pub fn init() -> Result<(), ()> {
     Ok(())
 }
