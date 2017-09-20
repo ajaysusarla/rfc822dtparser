@@ -7,6 +7,10 @@ pub struct RFC822DT {
 
 impl RFC822DT {
     pub fn parse(source: &str) -> Result<(), ()> {
+        let chars:Vec<char> = source.chars().collect();
+        for c in chars {
+            println!("{}", c);
+        }
         Ok(())
     }
 }
